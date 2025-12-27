@@ -113,17 +113,17 @@ int main()
 
     if (sem_init(&sem1,0 ,0)!=0)
     {
-        syslog(LOG_ERR, "Semafore cannot be created!!!");
+        syslog(LOG_ERR, "Semaphore cannot be created!!!");
         return 1;
     }
     if (sem_init(&sem2,0 ,0)!=0)
     {
-        syslog(LOG_ERR, "Semafore cannot be created!!!");
+        syslog(LOG_ERR, "Semaphore cannot be created!!!");
         return 1;
     }
-    if (sem_init(&sem2,0 ,0)!=0)
+    if (sem_init(&sem3,0 ,0)!=0)
     {
-        syslog(LOG_ERR, "Semafore cannot be created!!!");
+        syslog(LOG_ERR, "Semaphore cannot be created!!!");
         return 1;
     }
 
